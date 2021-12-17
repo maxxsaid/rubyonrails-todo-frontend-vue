@@ -1,0 +1,38 @@
+#title {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 4em;
+}
+#title span {
+  color: aqua;
+}
+
+#loginform {
+  display: flex;
+  width: 60%;
+  margin: 10px auto;
+}
+#forms {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#todos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10px auto;
+}
+#todos div {
+  margin: 15px;
+  max-width: 300px;
+  padding: 10px;
+  border: 2px solid navy;
+}
+#logout {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+}
